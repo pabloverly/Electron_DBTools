@@ -1,0 +1,19 @@
+{
+  "name": "dbtools",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/main.js",
+  "scripts": {
+    "reload": "live-reload ./src --port 35729",
+    "start": "electron .",   
+    "test": "echo \"Error: no test specified\" && exit 1"
+    
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": { 
+    "electron": "^9.0.5",
+    "live-reload": "^1.1.0",
+    "nodemon": "^2.0.4"
+  }
+}
